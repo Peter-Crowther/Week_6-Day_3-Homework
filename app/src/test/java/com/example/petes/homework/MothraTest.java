@@ -1,40 +1,39 @@
 package com.example.petes.homework;
 
-
 import com.example.petes.homework.monsters.*;
 
 import org.junit.*;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by petes on 01/11/2017.
  */
 
+public class MothraTest {
 
-
-
-public class GodzillaTest {
-
-    Godzilla godzilla;
+    Mothra mothra;
 
     @Before
     public void before() {
-        godzilla = new Godzilla("Godzilla", 100, 80 );
+        mothra = new Mothra("Mothra", 100, 65);
     }
+
 
     @Test
     public void hasName() {
-        assertEquals("Godzilla", godzilla.getName());
+        assertEquals("Mothra", mothra.getName());
     }
 
     @Test
     public void hasHealthValue() {
-        assertEquals(100, godzilla.getHealthValue());
+        assertEquals(100, mothra.getHealthValue());
     }
 
     @Test
     public void hasAttackValue() {
-        assertEquals(80, godzilla.getAttackValue());
+        assertEquals(65, mothra.getAttackValue());
     }
+
+
 }
