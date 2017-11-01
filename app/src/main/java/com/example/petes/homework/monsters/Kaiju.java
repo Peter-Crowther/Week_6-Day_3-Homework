@@ -8,7 +8,8 @@ public abstract class Kaiju {
     String name;
     int healthValue;
     int attackValue;
-    abstract String roar;
+
+    abstract String roar();
 
     public Kaiju(String name, int healthValue, int attackValue) {
         this.name = name;
@@ -28,10 +29,10 @@ public abstract class Kaiju {
         return this.attackValue;
     }
 
-    
-    public String roar(){
-        return "Roar!";
-    }
+
+//    public String roar(){
+//        return "Roar!";
+//    }
 
 }
 
