@@ -37,4 +37,9 @@ public class GodzillaTest {
     public void hasAttackValue() {
         assertEquals(80, godzilla.getAttackValue());
     }
+
+    @Test
+    public void move(){
+        assertEquals("Man in rubber monster suite, shuffle!", godzilla.move());
+    }
 }

@@ -5,6 +5,5 @@ package com.example.petes.homework.monsters.Behaviours;
  */
 
 public interface Movement {
-    String fly();
     String move();
 }

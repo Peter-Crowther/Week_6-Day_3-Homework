@@ -1,4 +1,4 @@
-package com.example.petes.homework.monsters.Vehicles;
+package com.example.petes.homework.monsters.Kaiju;
 
 /**
  * Created by petes on 01/11/2017.
@@ -6,7 +6,8 @@ package com.example.petes.homework.monsters.Vehicles;
 
 abstract public class Vehicle {
     String type;
-    int healthValue;
+    protected int healthValue;
+
 
     public Vehicle(String type, int healthValue) {
         this.type = type;
@@ -20,5 +21,6 @@ abstract public class Vehicle {
     public int getHealthValue() {
         return this.healthValue;
     }
+
 
 }

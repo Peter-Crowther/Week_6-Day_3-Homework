@@ -1,6 +1,6 @@
 package com.example.petes.homework;
 
-import com.example.petes.homework.monsters.Vehicles.FighterJet;
+import com.example.petes.homework.monsters.Kaiju.FighterJet;
 
 import org.junit.*;
 
@@ -28,5 +28,7 @@ public class FighterJetTest {
     public void hasHealhtValue() {
         assertEquals(100, fighterJet.getHealthValue());
     }
+
+
 
 }

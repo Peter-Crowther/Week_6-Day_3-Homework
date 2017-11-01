@@ -1,6 +1,6 @@
 package com.example.petes.homework;
 
-import com.example.petes.homework.monsters.Vehicles.*;
+import com.example.petes.homework.monsters.Kaiju.Helicopter;
 
 import org.junit.*;
 

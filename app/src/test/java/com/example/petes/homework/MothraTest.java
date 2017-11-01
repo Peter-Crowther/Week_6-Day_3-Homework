@@ -35,5 +35,11 @@ public class MothraTest {
         assertEquals(65, mothra.getAttackValue());
     }
 
+    @Test
+    public void canMove() {
+        assertEquals("Man in moth costume, flap wings!", mothra.move());
+    }
+
+    
 
 }
