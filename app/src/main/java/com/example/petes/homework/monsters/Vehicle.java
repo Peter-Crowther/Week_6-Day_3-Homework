@@ -5,4 +5,20 @@ package com.example.petes.homework.monsters;
  */
 
 abstract public class Vehicle {
+    String type;
+    int healthValue;
+
+    public Vehicle(String type, int healthValue) {
+        this.type = type;
+        this.healthValue = healthValue;
+    }
+
+    public String getType() {
+        return this.type;
+    }
+
+    public int getHealthValue() {
+        return this.healthValue;
+    }
+
 }
