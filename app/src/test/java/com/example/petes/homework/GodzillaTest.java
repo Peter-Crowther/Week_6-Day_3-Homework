@@ -1,7 +1,7 @@
 package com.example.petes.homework;
 
 
-import com.example.petes.homework.monsters.*;
+import com.example.petes.homework.monsters.Kaiju.Godzilla;
 
 import org.junit.*;
 

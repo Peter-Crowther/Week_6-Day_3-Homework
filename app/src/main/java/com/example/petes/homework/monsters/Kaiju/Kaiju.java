@@ -1,4 +1,4 @@
-package com.example.petes.homework.monsters;
+package com.example.petes.homework.monsters.Kaiju;
 
 /**
  * Created by petes on 01/11/2017.
@@ -28,6 +28,8 @@ public abstract class Kaiju {
     public int getAttackValue() {
         return this.attackValue;
     }
+
+
 
 
 //    public String roar(){

@@ -1,4 +1,4 @@
-package com.example.petes.homework.monsters;
+package com.example.petes.homework.monsters.Kaiju;
 
 /**
  * Created by petes on 01/11/2017.
